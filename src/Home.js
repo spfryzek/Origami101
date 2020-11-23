@@ -3,7 +3,7 @@ import "./css/style.css";
 import "./css/Login.css";
 import logo from './images/origamiLogo.jpg';
 
-export default function Login() {
+export default function Home() {
   return (
     <div>
       <center>
@@ -11,7 +11,7 @@ export default function Login() {
       	class="logo" 
       	src={logo} 
       	title="Origami101 Logo - Credit: Davyn Ben, Pinterest"/>
-      	<h1>Origami 101</h1>
+      	<h1>Origami 101 Home</h1>
       	<form class="login-form">
       		<input 
       		class="form-input"
@@ -32,18 +32,6 @@ export default function Login() {
       	{/* add clickevent */}
       	<div>
         
-        <button
-        type="button"
-        class="help-button">
-        New Account
-        </button>
-        
-        <button
-        type="button"
-        class="help-button">
-        Forgot Password
-        </button>
-      		
       	</div>
       </center>
     </div>

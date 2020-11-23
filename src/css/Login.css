@@ -11,3 +11,9 @@
 .submit-button {
 	width: 8rem;
 }
+
+.help-button {
+	width: 8rem;
+    border-style: none;
+    background-color: FFFFFF;
+}
