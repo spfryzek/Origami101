@@ -13,7 +13,8 @@
 }
 
 .help-button {
-	width: 8rem;
+	width: 10rem;
     border-style: none;
     background-color: FFFFFF;
+    height: 4rem;
 }
