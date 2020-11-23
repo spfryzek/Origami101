@@ -11,3 +11,8 @@ To run on your machine:
 *The first time you run it, you may need to do "npm i" first to download dependencies
 
 
+MongoDB:
+
+After install, to run:
+- C:\Program Files\MongoDB\Server\4.4\bin>"mongod.exe --dbpath "C:\data"
+- C:\Program Files\MongoDB\Server\4.4\bin>mongo.exe
