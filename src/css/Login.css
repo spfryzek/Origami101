@@ -1,5 +1,13 @@
+/* 1rem is about 16px */
+
+.link {
+    font-family: Arial;
+    font-size: 0.9rem;
+    margin: 2rem;
+}
+
 .login-form {
-	display: flex;
+    display: flex;
     flex-direction: column;
     width: 12rem;
 }
@@ -9,6 +17,7 @@
 }
 
 .submit-button {
+    margin-bottom: 2rem;
 	width: 8rem;
 }
 

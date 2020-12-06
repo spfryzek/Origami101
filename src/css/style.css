@@ -1,8 +1,22 @@
-.logo {
-	width: 10rem;
-	height: 10rem;
+/* 1rem is about 16px */
+
+h1 {
+  font-family: Arial;
 }
 
-h1, p {
-  font-family: Arial;
+.link {
+    font-family: Arial;
+    font-size: 0.9rem;
+    margin: 2rem;
+}
+
+.logo {
+	height: 10rem;
+	width: 10rem;
+}
+
+p {
+    font-family: Arial;
+    font-size: 0.9rem;
+    margin-top: 0;
 }
