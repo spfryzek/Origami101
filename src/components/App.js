@@ -33,9 +33,21 @@ function App() {
 				<Route exact path="/mediumOrigami">
 					<Nav page="mediumOrigami"></Nav>
 				</Route>
+                <Route exact path="/dove">
+                    <Nav page="dove"></Nav>
+                </Route>
+                <Route exact path="/butterfly">
+                    <Nav page="butterfly"></Nav>
+                </Route>
 				<Route exact path="/hardOrigami">
 					<Nav page="hardOrigami"></Nav>
 				</Route>
+                <Route exact path="/unicorn">
+                    <Nav page="unicorn"></Nav>
+                </Route>
+                <Route exact path="/iceCreamCone">
+                    <Nav page="iceCreamCone"></Nav>
+                </Route>
 			</div>
 		</Router>
 	);
