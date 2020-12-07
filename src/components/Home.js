@@ -31,6 +31,11 @@ function Home() {
                     </Link>
                 </li>
             </ul>
+                <Link 
+                        className="link"
+                        to="/grades">
+                        Grades
+                </Link>
         </div>
     );
 }
