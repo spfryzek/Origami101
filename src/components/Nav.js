@@ -5,6 +5,7 @@ import EasyOrigami from './EasyOrigami';
 import HardOrigami from './HardOrigami';
 import Heart from './EasyOrigamis/Heart';
 import Home from './Home';
+import Grades from './Grades';
 import IceCreamCone from './HardOrigamis/IceCreamCone';
 import {Link} from 'react-router-dom';
 import logo from '../images/origamiLogo.jpg';
@@ -47,6 +48,7 @@ function Nav(props) {
             {props.page === 'dove' && <Dove></Dove>}
             {props.page === 'butterfly' && <Butterfly></Butterfly>}
             {props.page === 'hardOrigami' && <HardOrigami></HardOrigami>}
+	    {props.page === 'grades' && <Grades></Grades>}
             {props.page === 'unicorn' && <Unicorn></Unicorn>}
             {props.page === 'iceCreamCone' && <IceCreamCone></IceCreamCone>}
         </div>
