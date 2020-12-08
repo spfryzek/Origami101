@@ -1,6 +1,6 @@
 /* 1rem is about 16px */
 
-h1 {
+h1, h3 {
   font-family: Arial;
 }
 
@@ -8,6 +8,14 @@ h1 {
     font-family: Arial;
     font-size: 0.9rem;
     margin: 2rem;
+}
+
+.link-spacing {
+    display: flex;
+    font-family: Arial;
+    font-size: 0.9rem;
+    margin: 1rem;
+    justify-content: space-between;
 }
 
 .logo {
