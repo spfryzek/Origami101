@@ -4,8 +4,7 @@ import '../css/style.css';
 
 function Grades() {
     return (
-        // <div style={{marginLeft: 2 + "em"}}>
-        <div>
+        <div style={{marginLeft: 2 + "em"}}>
             <center>
                 <h1>Grades</h1>
             </center>
