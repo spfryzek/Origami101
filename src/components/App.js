@@ -21,11 +21,17 @@ function App() {
 				<Route exact path="/home">
 					<Nav page="home"></Nav>
 				</Route>
+                <Route exact path="/grades">
+                    <Nav page="grades"></Nav>
+                </Route>
 				<Route exact path="/easyOrigami">
 					<Nav page="easyOrigami"></Nav>
 				</Route>
                 <Route exact path="/dogFace">
                     <Nav page="dogFace"></Nav>
+                </Route>
+                <Route exact path="/dogFaceStep1">
+                    <Nav page="dogFaceStep1"></Nav>
                 </Route>
                 <Route exact path="/heart">
                     <Nav page="heart"></Nav>

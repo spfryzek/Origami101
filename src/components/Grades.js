@@ -4,13 +4,14 @@ import '../css/style.css';
 
 function Grades() {
     return (
-        <div style={{marginLeft: 2 + "em"}}>
+        // <div style={{marginLeft: 2 + "em"}}>
+        <div>
             <center>
                 <h1>Grades</h1>
             </center>
 
-            <h3> Courses taken: </h3>
-            Easy Origami: <br />
+            <h3>Courses taken: </h3>
+            <p>Easy Origami: </p> <br />
             
         </div>
     );

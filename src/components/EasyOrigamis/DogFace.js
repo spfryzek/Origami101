@@ -7,11 +7,17 @@ function DogFace() {
             <center>
                 <h1>Dog Face</h1>
             </center>
-            <Link
-                className="link"
-                to="/easyOrigami">
-                Go back
-            </Link>
+            <div 
+                className="link-spacing">
+                <Link
+                    to="/easyOrigami">
+                    Go back
+                </Link>
+                <Link
+                    to="/dogFaceStep1">
+                    Start Lesson
+                </Link>
+            </div>
         </div>
     );
 }

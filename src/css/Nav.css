@@ -18,3 +18,7 @@ nav {
     list-style: none;
     width: 100%;
 }
+
+li {
+    font-family: Arial;
+}
